@@ -1,0 +1,108 @@
+/*Estilizando a página*/
+body {
+    background-color: rgb(227, 227, 227);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    background: white;
+    border: 1px solid gray;
+    padding: 1em;
+    display: flex;
+    margin: 0 auto;
+}
+
+form {
+    background-color: whitesmoke;
+    border: 1px solid lightgray;
+    padding: 1em;
+    display: flex;
+}
+
+input {
+    flex: 1;
+    font-size: 1.5em;
+    margin-right: 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    background-color: whitesmoke;
+    margin-bottom: 5px;
+    border: 1px solid lightgray;
+    margin: 3px 10px;
+    padding: 5px;
+}
+
+li input {
+    flex: 1;
+    border: none;
+    color: black;
+}
+
+button {
+    color: white;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/*Estilizando os botões Adicionar e Editar*/
+.botao-adicionar {
+    background-color: green;
+    height: 30px;
+    margin: auto;
+    font-size: 1.5em;
+}
+
+.botao-editar {
+    background-color: blue;
+    font-size: 1em;
+    padding: 5px;
+}
+
+.botao-apagar {
+    background-color: red;
+    font-size: 1em;
+    margin-right: 5px;
+    padding: 5px;
+}
+
+.desativado {
+    background-color: gray !important;
+}
+
+.container-botoes-editar-apagar {
+    display: flex;
+    gap: 5px; /*Gap -> Vão ou espaço*/
+}
+
+
+/*Estilizando os botões salvar e cancelar*/
+.container-botoes-salvar-cancelar {
+    display: flex;
+    gap: 5px;
+}
+
+.botao-salvar {
+    background-color: green;
+    font-size: 1em;
+    padding: 5px;
+}
+
+.botao-cancelar {
+    background-color: gray;
+    font-size: 1em;
+    margin-right: 5px;
+    padding: 5px;
+}
+
+.esconder-botoes {
+    display: none !important;
+}

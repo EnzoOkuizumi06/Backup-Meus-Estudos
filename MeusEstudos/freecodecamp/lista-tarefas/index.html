@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de tarefas</title>
+    <link rel="shortcut icon" href="https://images.icon-icons.com/3078/PNG/96/clipboard_notes_list_tasks_icon_191193.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js" defer></script>
+</head>
+<body>
+    <main>
+        <form>
+            <input type="text" id="input-novo-item" />
+            <button class="botao-adicionar desativado">+</button>
+        </form>
+
+        <ul> <!--Lista não ordenada-->
+            <li> <!--Listar um item - list item. Ele sempre aparece dentro de uma lista ordenada (ol) ou não ordenada (ul)-->
+                <input value="Estudar Javascript" type="text" disabled> <!--Disabled - desabilitando o input para não alterar o seu conteúdo-->
+                
+                <div class="container-botoes-editar-apagar">
+                    <button class="botao-editar">Editar</button>
+                    <button class="botao-apagar">Apagar</button>
+                </div>
+
+                <div class="container-botoes-salvar-cancelar esconder-botoes">
+                    <button class="botao-salvar">Salvar</button>
+                    <button class="botao-cancelar">Cancelar</button>
+                </div>
+            </li>
+        </ul>
+    </main>
+
+</body>
+</html>

@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&display=swap');
+
+html {
+    font-family: 'Roboto Mono', monospace;
+}
+
+h1 {
+    text-align: center; /*Descreve como o conteúdo inline é alinhado no elemento pai em bloco*/
+    color: olive;
+}
+
+/* Menu de navegação */
+nav {
+    text-align: center;
+
+}
+
+nav a {
+    color: #0a0a23;
+    text-decoration: none;
+}
+
+#lista {
+    list-style: none;
+}
+
+#lista li {
+    margin: 20px;
+}
+
+nav a:hover {
+    background-color: #1b1b32;
+    color: #f5f6f7;
+    padding: 15px; /*Define uma distância entre o conteúdo de um elemento e suas bordas*/
+    border-radius: 10px;
+
+}
+
+/* Estilizando as imagens */
+img {
+    width: 300px;
+    height: 180px;
+}
+
+#linkFoto:hover {
+    background-color: white;
+}
+
+
+/* Tag A */
+
+a {
+    color: #0a0a23;
+}
+
+a:hover {
+    color: #f5f6f7;
+    background-color: #1b1b32;
+}
+
+/* Galeria */
+
+img {
+    max-width: 280px;
+    height: auto;
+
+}
+
+#galeria {
+    display: flex; /*Flex faz todos os elementos se organizarem em linha*/
+    width: 50%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+figcaption {
+    text-align: left;
+}
+
+/*max-width -> Estabelece a largura máxima de um elemento*/
+@media (max-width: 650px) {
+    #galeria {
+        flex-direction: column;
+        align-items: center; /*Align-items -> Estabelece o alinhamento de um certo item dentro de um bloco que o contém*/
+    }
+}
+
+/* Rodapé */
+footer {
+    font-size: 0.75em; /*em -> 75% do tamanho original*/
+}

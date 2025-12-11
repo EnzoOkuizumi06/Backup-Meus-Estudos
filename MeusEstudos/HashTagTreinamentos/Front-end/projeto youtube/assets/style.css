@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.img-thumb {
+    width: 380px; /*Width -> largura*/
+}
+
+.img-canal {
+    width: 36px;
+}
+
